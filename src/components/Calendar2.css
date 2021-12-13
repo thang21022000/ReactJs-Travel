@@ -1,0 +1,32 @@
+.react-calendar {
+    border-radius: 8px;
+    padding: 8px;
+}
+
+
+ /* capitalize the title date */
+.react-calendar__navigation__label span{
+    text-transform: capitalize;
+    font-weight: 700;
+}
+ /* xóa gạch chân */
+.react-calendar__month-view__weekdays__weekday abbr{
+    text-decoration: none;
+}
+  /* các ngày cuối tuần chữ màu hồng */
+.react-calendar__tile.react-calendar__month-view__days__day.react-calendar__month-view__days__day--weekend abbr{
+    color: var(--primaryColor);
+}
+
+.react-calendar__tile:disabled{
+    background-color: #fff;
+    text-decoration: line-through;
+}
+
+.react-calendar__tile.react-calendar__month-view__days__day{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}
+  
+  

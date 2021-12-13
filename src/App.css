@@ -1,38 +1,35 @@
-.App {
-  text-align: center;
+:root{
+    --primaryColor: #f12a6c;
+    --borderColor: rgba(231, 225, 225, 0.897);
+    --fontColor: #333;
+    --footerColor: #f7f7f7;
+    --whiteColor: #fff;
+    --fontColorLight: rgb(113, 113, 113);
+    /*animation*/
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body,html{
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.react-confirm-alert-body{
+    text-align: center !important;
 }
 
-.App-link {
-  color: #61dafb;
+.react-confirm-alert-button-group{
+    justify-content: center !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+
+
+

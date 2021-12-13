@@ -1,0 +1,49 @@
+/*phần tiện nghi phổ biến*/
+/* .nghiduong.tiennghi{
+    margin-top: 0px;
+} */
+
+.colum-tiennghi{
+    min-width: 200px;
+    margin-top: 20px;
+    transition: all 0.2s linear;
+    cursor: pointer;
+}
+
+.colum-tiennghi:hover{
+    box-shadow:  0 5px 10px 2px var(--primaryColor); 
+    color: var(--primaryColor);
+}
+
+.part1-tiennghi{
+    display: grid;
+    place-items: center;
+    padding: 12px 24px;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    box-shadow:  0 5px 10px 2px #dfd7d6; 
+}
+
+.img-container{
+    display: inline-block;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    object-fit: cover;
+    padding: 5px 0;
+    margin: 0;
+}
+
+.tiennghi-img{
+    height: 100%;
+}
+
+.tiennghi-text{
+    padding: 5px 0;
+    text-transform: capitalize;
+    font-weight: bold;
+}    
+
+.colum-tiennghi div:nth-of-type(4){
+    flex-grow: 1,5;
+}

@@ -1,0 +1,252 @@
+{
+  "hotels": [
+    {
+      "id": 1,
+      "popularity": "superhot",
+      "image": [
+        "https://a0.muscache.com/im/pictures/896c6768-8c48-4a39-b24f-e63b58ee3de6.jpg",
+        "https://a0.muscache.com/im/pictures/1cd21b65-8ca1-4b69-a457-e2efb58abb8c.jpg",
+        "https://a0.muscache.com/im/pictures/d370f126-6419-4539-9121-95b8adb2399c.jpg",
+        "https://a0.muscache.com/im/pictures/98fd0681-22ec-4cd4-b702-41532900f378.jpg",
+        "https://a0.muscache.com/im/pictures/1cd21b65-8ca1-4b69-a457-e2efb58abb8c.jpg"
+      ],
+      "summary": "Phòng khách sạn- 2 khách- 1 giường- 1 phòng tắm riêng",
+      "hotel": "Masteri Millennium Studio with Amazing City View",
+      "desc": "Căn hộ studio hiện đại, đầy đủ tiện nghi, chỉ cách các điểm du lịch chính như Chợ Bến Thành, Phạm Ngũ Lão và đường Bùi Viện vài phút với tầm nhìn đẹp ra kênh Tàu Hủ, trung tâm thành phố và Tháp Bitexco",
+      "complaint": [
+        "Nơi ở rất sạch sẽ và vị trí rất đẹp. Nhìn ra ban công là có thể thấy cảnh đẹp ban đêm rồi. Nhà đầy đủ tiện nghi, nhất là đồ bếp mình thích chén dĩa xinh. Chủ nhà đúng giờ",
+        "Mình cảm thấy rất thú vị và tuyệt vời trong toàn bộ quá trình lưu trú tại đây. Sẽ quay trở lại trải nghiệm tiếp ♥️"
+      ],
+      "price": "21",
+      "address": "quận 4 thành phố hồ chí minh",
+      "fees": {
+        "cleaning": "5",
+        "service": "8"
+      },
+      "type": "wholeroom"
+    },
+    {
+      "id": 2,
+      "popularity": "superhot",
+      "image": [
+        "https://a0.muscache.com/im/pictures/f6e56670-9504-4e3a-a343-ec36c34db976.jpg?",
+        "https://a0.muscache.com/im/pictures/407a689c-2f59-4ce1-a2b2-d8084da09f95.jpg",
+        "https://a0.muscache.com/im/pictures/37133938-b16c-4e87-84bc-f29a18233a74.jpg",
+        "https://a0.muscache.com/im/pictures/501cedfa-0d24-47a8-8534-c9751ccb830b.jpg",
+        "https://a0.muscache.com/im/pictures/37133938-b16c-4e87-84bc-f29a18233a74.jpg"
+      ],
+      "summary": "Toàn bộ nhà- 3 khách- 1 giường- 1 phòng tắm",
+      "hotel": "PRIVATE BALCONY ⭐ Local Neighborhood ❤ of city 3",
+      "desc": "Đi lại an toàn là điều quan trọng nhất• Khu phố địa phương, an toàn, văn hóa • Nhiều nhà hàng địa phương và thực phẩm đường phố dưới đường• Vệ sinh sạch sẽ không vết bẩn.• Bàn làm việc. WIFI tốc độ cao.• Nhà bếp được trang bị đầy đủ • Nhận phòng/trả phòng 24/7• Không có giờ giới nghiêm. Vào nhà bằng thẻ khóa• Giám sát camera 24/7 tại sảnh• Thang máy • studio 32m2• Dịch vụ giặt ủi với một khoản phí nhỏ",
+      "complaint": [
+        "Mình cảm thấy rất thú vị và tuyệt vời trong toàn bộ quá trình lưu trú tại đây. Sẽ quay trở lại trải nghiệm tiếp ♥️",
+        "Địa chỉ dễ tìm, check-in đơn giản. Không gian yên tĩnh, sạch sẽ. Có khu vực để xe."
+      ],
+      "price": "18",
+      "address": "đường phạm thế hiển phường 5 quận 8 thành phố hồ chí minh",
+      "fees": {
+        "cleaning": "5",
+        "service": "8"
+      },
+      "type": "wholeroom"
+    },
+    {
+      "id": 3,
+      "popularity": "superhot",
+      "image": [
+        "https://a0.muscache.com/im/pictures/9aeca86a-7fd2-4404-a9f2-f8eff68e468c.jpg",
+        "https://a0.muscache.com/im/pictures/8f65a2d2-d249-4b38-a1b0-857d49edf4ec.jpg",
+        "https://a0.muscache.com/im/pictures/9f24af47-cab8-48b1-a15a-4aecc1a6e1c9.jpg",
+        "https://a0.muscache.com/im/pictures/36205e44-c494-4d6f-8bd0-9f04edaf0b2f.jpg",
+        "https://a0.muscache.com/im/pictures/1cc8f903-f540-48b0-b2c5-309f35dce9f0.jpg"
+      ],
+      "summary": "Phòng khách sạn- 2 khách- 1 giường- 1 phòng tắm riêng- 1phòng ngủ",
+      "hotel": "Hoi An Studio | Bồn Tắm | 5★ Views bởi CIRCADIAN",
+      "desc": "Studio hoàn toàn mới của chúng tôi là nơi hoàn hảo cho kỳ nghỉ của bạn ở Sài Gòn! Nội thất nhiệt đới được lấy cảm hứng từ kiến ​​trúc nổi tiếng của Hội An. Tọa lạc tại trung tâm Sài Gòn, cách khu Tây ba lô 10 phút đi bộ. Tận hưởng khung cảnh thiên đường của Sài Gòn, đặc biệt là vào ban đêm.",
+      "complaint": [
+        "Phòng rộng rãi, thoáng và sạch sẽ. View siêu đẹp, nhận phòng rồi là không muốn đi đâu nữa, chỉ muốn ở phòng để tận hưởng thôi",
+        "Phòng khử mùi không được tốt, quản gia hơi không hoà nhã, còn lại rất ổn."
+      ],
+      "price": "29",
+      "address": "quận 1 thành phố hồ chí minh",
+      "fees": {
+        "cleaning": "5",
+        "service": "8"
+      },
+      "type": "hotelroom"
+    },
+    {
+      "id": 4,
+      "popularity": "superhot",
+      "image": [
+        "https://a0.muscache.com/im/pictures/aefa7441-517e-4ec4-a8c4-a779fcdfe945.jpg?im_w=480",
+        "https://a0.muscache.com/im/pictures/f7d39d87-a2a0-4a12-b0a7-dbf91df65f39.jpg?im_w=480",
+        "https://a0.muscache.com/im/pictures/75cf77b9-5449-41f4-a283-117b902f3215.jpg?im_w=480",
+        "https://a0.muscache.com/im/pictures/4f3cf3a2-2f0a-41e7-ab0f-0b70d3804ed2.jpg?im_w=480",
+        "https://a0.muscache.com/im/pictures/f7d39d87-a2a0-4a12-b0a7-dbf91df65f39.jpg?im_w=480"
+      ],
+      "summary": "4 khách- 1 giường- 1 phòng tắm riêng- 2 phòng ngủ",
+      "hotel": "Explore Downtown Sai Gon from a Hip Apartment",
+      "desc": "Nằm ngửa trên ghế sofa da khi ánh sáng ban ngày rót qua một cửa sổ hình ảnh lớn làm cho người nội trợ thay đổi giữa các sắc thái của màu xanh lá cây. Kết hợp gạch phơi sáng, đồ nội thất, và trang trí thời trang, căn hộ táo bạo này tạo nên một loạt các nốt nhạc phong cách.",
+      "complaint": [
+        "Phòng rộng rãi, thoáng và sạch sẽ. View siêu đẹp, nhận phòng rồi là không muốn đi đâu nữa, chỉ muốn ở phòng để tận hưởng thôi",
+        "Phòng khử mùi không được tốt, quản gia hơi không hoà nhã, còn lại rất ổn."
+      ],
+      "price": "37",
+      "address": "nguyễn cư trinh thành phố hồ chí minh",
+      "fees": {
+        "cleaning": "6",
+        "service": "6"
+      },
+      "type": "shareroom"
+    },
+    {
+      "id": 5,
+      "popularity": "superhot",
+      "image": [
+        "https://a0.muscache.com/im/pictures/miso/Hosting-23035541/original/949a38c4-c580-4ea5-89c3-4b0ca2b12f5b.jpeg?im_w=480",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-23035541/original/27fd6822-45af-49e9-bc87-6aaede709703.jpeg?im_w=480",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-23035541/original/abc34178-6a6b-4d59-89ef-6f467087e2ac.jpeg?im_w=480",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-23035541/original/7468ceb4-be62-4ad3-b91b-07d2c0742c45.jpeg?im_w=480",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-23035541/original/84bf9ab4-f3d2-4e20-87c7-633503c0adef.jpeg?im_w=720"
+      ],
+      "summary": "4 khách- 1 giường- 1 phòng tắm - 1 phòng ngủ",
+      "hotel": "O2 * Vintage Studio near Saigon Opera House",
+      "desc": "Nhà hát HoLo Sài Gòn - Thành viên NHÀ CỔ TÍCH HOLO. - Nhóm lớn hơn có thể liên lạc với chúng tôi để đặt các phòng khác tại cùng một ngôi nhà hoặc nhà khác trong danh mục đầu tư của chúng tôi cả ở Hà Nội và Thành phố Hồ Chí Minh. - Studio thiết kế cổđiển ",
+      "complaint": [
+        "Phòng rộng rãi, thoáng và sạch sẽ. View siêu đẹp, nhận phòng rồi là không muốn đi đâu nữa, chỉ muốn ở phòng để tận hưởng thôi",
+        "Phòng khử mùi không được tốt, quản gia hơi không hoà nhã, còn lại rất ổn."
+      ],
+      "price": "19",
+      "address": "bến nghé thành phố hồ chí minh",
+      "fees": {
+        "cleaning": "3",
+        "service": "4"
+      },
+      "type": "privateroom"
+    },
+    {
+      "id": 6,
+      "popularity": "superhot",
+      "image": [
+        "https://a0.muscache.com/im/pictures/ee434b45-adef-41a9-b6ce-f7f5db076441.jpg?im_w=480",
+        "https://a0.muscache.com/im/pictures/d8585935-3291-48d1-9c6e-0ae1465937ab.jpg?im_w=480",
+        "https://a0.muscache.com/im/pictures/691c5299-fdbc-48fe-93b5-2b592faffe64.jpg?im_w=480",
+        "https://a0.muscache.com/im/pictures/39f36beb-ed82-444a-9c86-924525886f92.jpg?im_w=480",
+        "https://a0.muscache.com/im/pictures/a10edf89-5e18-4fd2-9761-2210aa74fb40.jpg?im_w=480"
+      ],
+      "summary": "4 khách- 1 giường- 1 phòng tắm riêng- 2 phòng ngủ",
+      "hotel": "Studio phong cách Nhật + cafe thủ công Circadian",
+      "desc": "có hứng thú với những studio được lấy cảm hứng từ Nhật Bản ở trung tâm thành phố Sài Gòn! Không gian nổi bật với thiết kế hàng cột lộ ra ngoài, những bức tường cong và trần kính độc đáo giúp hành lang tràn ngập ánh sáng mặt trời.",
+      "complaint": [
+        "Phòng rộng rãi, thoáng và sạch sẽ. View siêu đẹp, nhận phòng rồi là không muốn đi đâu nữa, chỉ muốn ở phòng để tận hưởng thôi",
+        "Phòng khử mùi không được tốt, quản gia hơi không hoà nhã, còn lại rất ổn."
+      ],
+      "price": "26",
+      "address": "quận 1 thành phố hồ chí minh",
+      "fees": {
+        "cleaning": "4",
+        "service": "9"
+      },
+      "type": "privateroom"
+    },
+    {
+      "id": 7,
+      "popularity": "superhot",
+      "image": [
+        "https://a0.muscache.com/im/pictures/miso/Hosting-46224855/original/1ef0a1c2-e6e7-4ecb-9558-3ef96edfda1b.jpeg?im_w=480",
+        "https://a0.muscache.com/im/pictures/f5ab458e-0e5b-42b8-a4c0-0d4f4119e52c.jpg?im_w=480",
+        "https://a0.muscache.com/im/pictures/e3fe532b-1f14-46f7-9e77-21165bbfc238.jpg?im_w=480",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-46224855/original/23a81bd6-276b-4ba2-9107-3ce0c3efb657.jpeg?im_w=480",
+        "https://a0.muscache.com/im/pictures/1bccfc7f-fb1a-4664-8a5a-970057d21245.jpg?im_w=480"
+      ],
+      "summary": "2 khách- phòng studio 1 giường- 1 phòng tắm riêng",
+      "hotel": "Hidden Gem of Bare Chic @perfect for COUPLE",
+      "desc": "Chỉ cần một chuyến đi dạo thoải mái từ trung tâm Sài Gòn, Bare Chic - Bare Boutique Stays nằm giữa một khu dân cư kỳ lạ được bao quanh bởi một kênh đào buồn ngủ và Vườn thú Sài Gòn xinh đẹp. Mặc dù dựa trên một tòa nhà di sản lâu dài, căn hộ được trang bị các tiện nghi hiện đại và các yếu tố của thiết kế đương đại. Lược đồ màu sắc mát mẻ, bình tĩnh với các đường nét đơn giản giúp không gian lý tưởng để thư giãn sau một ngày bận rộn đi chơi",
+      "complaint": [
+        "Phòng rộng rãi, thoáng và sạch sẽ. View siêu đẹp, nhận phòng rồi là không muốn đi đâu nữa, chỉ muốn ở phòng để tận hưởng thôi",
+        "Phòng khử mùi không được tốt, quản gia hơi không hoà nhã, còn lại rất ổn."
+      ],
+      "price": "27",
+      "address": "quận 2 thành phố hồ chí minh",
+      "fees": {
+        "cleaning": "4",
+        "service": "9"
+      },
+      "type": "privateroom"
+    },
+    {
+      "id": 8,
+      "popularity": "superhot",
+      "image": [
+        "https://a0.muscache.com/im/pictures/miso/Hosting-35750418/original/d69d1b2b-593a-4d9b-8b2b-902b8e4d2489.jpeg?im_w=480",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-35750418/original/a8a264f6-7de5-4dc7-a10d-ae946c68b938.jpeg?im_w=480",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-35750418/original/46b498d4-fa92-4f2d-8519-9d4729962a63.jpeg?im_w=480",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-35750418/original/b2e950ce-8c77-41a8-8346-7c6d69a4acd0.jpeg?im_w=480",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-35750418/original/86228fec-34a2-4c65-b1cb-746fe8f32320.jpeg?im_w=480"
+      ],
+      "summary": "3 khách- 1 phòng - 1 giường- 1 phòng tắm riêng",
+      "hotel": "23rd Fl⭐️VINHOMES LANDMARK PLUS🇻🇳Next to LANDMARK 81",
+      "desc": "Căn hộ cao cấp🌇 một phòng ngủ trong tòa nhà nằm ngay trung tâm Vinhomes Central Park (VCP). VCP là khu đô thị hiện đại nổi tiếng nhất Sài Gòn, có vị trí đắc địa trong thành phố, sở hữu tòa nhà cao nhất Sài Gòn, Landmark 81, một trong 15 tòa nhà chọc trời cao nhất thế giới.",
+      "complaint": [
+        "Phòng rộng rãi, thoáng và sạch sẽ. View siêu đẹp, nhận phòng rồi là không muốn đi đâu nữa, chỉ muốn ở phòng để tận hưởng thôi",
+        "Phòng khử mùi không được tốt, quản gia hơi không hoà nhã, còn lại rất ổn."
+      ],
+      "price": "35",
+      "address": "quận bình thạnh thành phố hồ chí minh",
+      "fees": {
+        "cleaning": "3",
+        "service": "5"
+      },
+      "type": "privateroom"
+    }
+  ],
+  "users": [
+    {
+      "email": "thang21022000@gmail.com",
+      "phone": "0938380148",
+      "pass": "123",
+      "birthDate": "2021-11-30",
+      "firstName": "Nguyen",
+      "lastName": "Thang",
+      "didOrder": true,
+      "id": 1,
+      "placeOrder": {
+        "hotel": {
+          "id": 3,
+          "popularity": "superhot",
+          "image": [
+            "https://a0.muscache.com/im/pictures/9aeca86a-7fd2-4404-a9f2-f8eff68e468c.jpg",
+            "https://a0.muscache.com/im/pictures/8f65a2d2-d249-4b38-a1b0-857d49edf4ec.jpg",
+            "https://a0.muscache.com/im/pictures/9f24af47-cab8-48b1-a15a-4aecc1a6e1c9.jpg",
+            "https://a0.muscache.com/im/pictures/36205e44-c494-4d6f-8bd0-9f04edaf0b2f.jpg",
+            "https://a0.muscache.com/im/pictures/1cc8f903-f540-48b0-b2c5-309f35dce9f0.jpg"
+          ],
+          "summary": "Phòng khách sạn- 2 khách- 1 giường- 1 phòng tắm riêng- 1phòng ngủ",
+          "hotel": "Hoi An Studio | Bồn Tắm | 5★ Views bởi CIRCADIAN",
+          "desc": "Studio hoàn toàn mới của chúng tôi là nơi hoàn hảo cho kỳ nghỉ của bạn ở Sài Gòn! Nội thất nhiệt đới được lấy cảm hứng từ kiến ​​trúc nổi tiếng của Hội An. Tọa lạc tại trung tâm Sài Gòn, cách khu Tây ba lô 10 phút đi bộ. Tận hưởng khung cảnh thiên đường của Sài Gòn, đặc biệt là vào ban đêm.",
+          "complaint": [
+            "Phòng rộng rãi, thoáng và sạch sẽ. View siêu đẹp, nhận phòng rồi là không muốn đi đâu nữa, chỉ muốn ở phòng để tận hưởng thôi",
+            "Phòng khử mùi không được tốt, quản gia hơi không hoà nhã, còn lại rất ổn."
+          ],
+          "price": "29",
+          "address": "quận 1 thành phố hồ chí minh",
+          "fees": {
+            "cleaning": "5",
+            "service": "8"
+          },
+          "type": "hotelroom"
+        }
+      },
+      "detailOrder": {
+        "datein": "18/12/2021",
+        "dateOut": "19/12/2021",
+        "feeService": "8",
+        "feeCleaning": "5",
+        "feeTotalOfDay": 58,
+        "feeTotal": 71,
+        "datePicked": 2
+      }
+    }
+  ]
+}

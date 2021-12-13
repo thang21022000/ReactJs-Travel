@@ -1,0 +1,56 @@
+.button__on__map{
+    height: 30px;
+    width: 40px;
+    background-color: #fff;
+    border: 1px solid var(--fontColorLight);
+    border-radius: 50px;
+    font-weight: bold;
+    
+}
+
+.button__on__map:hover{
+    transform: scale(1.1);
+}
+
+.mapboxgl-popup-content{
+    padding: 0 !important;
+    border-top-left-radius: 20px !important;
+    border-top-right-radius: 20px !important;
+}
+
+.mapboxgl-popup-content a{
+    text-decoration: none;
+}
+
+.map__popup__item{
+    width: 300px;
+    border-radius: 30px;
+    
+}
+
+.map__popup__item img{
+    width: 100%;
+    padding: 1px;
+    /* border: 1px solid var(--fontColorLight); */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.map__popup--info{
+    padding: 20px 12px;
+}
+
+.map__popup--name{
+    margin-bottom: 8px;
+    color: rgba(34,34,34);
+    line-height: 1.5;
+}
+
+.map__popup--price{
+    color: rgba(34,34,34);
+}
+
+.map__popup--price .number{
+    color: #000;
+    font-weight: 700;
+}

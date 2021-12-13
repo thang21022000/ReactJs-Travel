@@ -1,0 +1,57 @@
+/*phần chung của nhà nghĩ dưỡng*/
+.nghiduong{
+    width: 100%;
+    display: block;
+    padding: 0;
+    margin-top: 80px;
+}
+
+.nghiduong .wide{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nghiduong.phongcach .container-btn{
+    display: none;
+}
+.nghiduong h1{
+    margin-bottom: 1rem;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.nghiduong span{
+    color: rgb(163, 157, 157);
+}
+
+.nghi-duong-group{
+    display: grid;
+    place-items: center; 
+    margin-top: 12px;
+    min-width: 0;
+    min-height: 0;
+}
+
+.nghi-duong-group > .container-btn{
+    grid-column-start: 1;
+    place-items: unset;
+}
+
+.nghi-duong-group .container-btn.price-button {
+    text-decoration: capitalize;
+}
+
+.nghi-duong-group.item-3{
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
+    column-gap: 36px;
+}
+
+.nghi-duong-group.item-4{
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
+    column-gap: 36px;
+}
+
+.nghi-duong-group.item-5{
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
+    column-gap: 36px;
+}

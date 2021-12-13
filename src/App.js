@@ -1,23 +1,35 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import Dangky from './components/Dangky';
+import DangNhap from './components/DangNhap';
+import Home from './components/Home';
+import Account from './components/Account';
+import AllHotels from './components/AllHotels';
+import HotelDetail from './components/HotelDetail';
+import React, {} from 'react'
+
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <Router>
+          <Navbar />
+            <Switch>
+              <Route  path="/allhotels" component={AllHotels} />
+              <Route  path="/hotels/:id" component={HotelDetail} />          
+              <Route  path="/dangnhap" component={DangNhap} />          
+              <Route  path="/dangky" component={Dangky} />
+              <Route path="/account" component={Account}/>         
+              <Route  path="/" exact component={Home} />         
+            </Switch>
+          <Footer />
+        </Router>
     </div>
   );
 }

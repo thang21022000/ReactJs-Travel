@@ -1,0 +1,138 @@
+.fullpage-img{
+
+    /* Full height */
+    height: 100vh; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar-container{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    top: 0px;
+    z-index: 10;height: 80px;
+    box-shadow: 5px 2px 5px  #dddddd; 
+    transition: all 0.1s linear;
+}
+
+/* left*/
+.logo{
+    height: 60px;
+    width: 120px;
+    margin-left: 100px;
+}
+.img-logo{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 12px;
+}
+.header-right{
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.container-img{
+    position: relative; 
+    display: flex;
+    height: 20px;
+}
+
+.container-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 0 4px;
+}
+
+.header-right-content{
+    padding: 15px;
+    margin: 0 4px;
+    position: relative;
+    background-color: var(--whiteColor);
+    border-radius: 30px;
+
+}
+
+.language-money::after, .personal::after{
+    content: "";
+    position:absolute;
+    top: calc(100% - 10px);
+    right: 0;
+    height: 18px;
+    width: 100%;
+}
+
+.option-toggle{
+    position: absolute;
+    top: calc(100% + 8px);
+    right: 0;
+    border-radius: 10px;
+    box-shadow: 0 0px 4px 1px rgb(201, 194, 194);
+    background: rgb(252, 251, 251);
+}
+
+/* custom language-currency*/
+.option-toggle div{
+    min-width: 180px;  
+    padding: 4px 8px;
+}
+
+.option-toggle div span{
+    vertical-align: middle;
+
+}
+.option-toggle div img {
+    padding: 0 4px;
+    vertical-align: middle;
+}
+
+.language-money .option-toggle div:hover{
+    opacity: 0.7;
+}
+
+/*custom personal*/
+.personal{
+    border: 1px solid #dddddd;
+}
+
+.personal-list{
+    list-style: none;
+}
+.personal-list li{
+    padding: 8px;
+}
+
+
+
+.personal-list li a{
+    display: block;
+    text-decoration: none;
+    color: var(--fontColor);
+}
+
+.personal-list li a:hover {
+    opacity: 0.7;
+}
+
+/* the same*/
+.option-toggle, .option-user{
+    display: none;
+}
+
+.header-right-content:hover .option-toggle{
+    display: block;
+}
+
+.language-money:hover,.personal:hover{
+    box-shadow: 0 2px 2px var(--primaryColor);
+    cursor: pointer;
+}
+

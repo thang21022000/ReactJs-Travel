@@ -1,0 +1,142 @@
+.hotel-item{
+    max-width: 100%;
+    margin-bottom: 1rem;
+    text-align: justify;    
+}
+
+.hotel-item a{
+    text-decoration: none;
+    color: var(--fontColor);
+
+}
+
+/* */
+
+.hotel-container-img{
+    height: 250px;
+    overflow: hidden;
+    /* position: absolute; */
+}
+
+.hotel-img{
+    height: 100%;
+    width: 376px;
+    object-fit: cover;
+    object-position: right center;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    border-radius:10px ;
+
+}
+
+.hotel-img:hover{
+    -webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+.superhot {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    margin-top: 7px;
+    
+}
+
+.superhot h5{
+    padding: 4px 8px;
+    border-radius: 3px;
+    border: 1px solid black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.tooltip-container{
+    position: relative;
+    margin-left: 4px;
+}
+
+.tooltip-desc{
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    text-transform: capitalize;
+    color: gray;
+}
+
+.tooltip-text {
+    position: absolute;
+    visibility: hidden;
+    bottom: 100%;
+    background-color: rgb(158, 158, 158);
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    border-radius: 6px;
+    opacity: 0;
+    transition: all 0.1s ease-in-out;
+    z-index: 2;
+  }
+
+.tooltip-container:hover .tooltip-text{
+    visibility: visible;  
+    opacity: 1;
+
+}
+
+.hotel-name{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.p-hotel-name{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: large;
+    text-transform: capitalize;
+}
+
+.p-hotel-name2{
+    color : var(--fontColor);
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    display: -webkit-box;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+.complaint{
+    border-top: 1px solid rgb(218, 218, 218);
+}
+
+.guest-complain{
+    color: gray;
+    font-weight: bold;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    letter-spacing: 2px;
+}
+
+.p-complain{
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    display: -webkit-box;
+    color: gray;
+    line-height: 1.5;
+    font-size: 12px;
+}
+
+.btn-link{
+    float: left;
+    text-decoration: none;
+    padding: 0;
+    margin: 20px 80px;
+}
