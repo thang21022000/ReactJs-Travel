@@ -7,7 +7,6 @@ import './MapBox.css';
 
 function MapBox({address, width, height}) {
   const [selectedHotel, setSelectedHotel] = useState(null);
-
   const [viewport, setViewport] = useState({
     latitude: 10.771168777212013,
     longitude: 106.70756438448637,
@@ -15,30 +14,46 @@ function MapBox({address, width, height}) {
     height: "100vh",
     zoom: 11.5
   });
-
   const [position, setPosition] = useState([]);
-
+  const [state, setState] =  useState(Date.now());
   useEffect(() => {
-    let newAddress = [];
-    address.map((addr) => (
-      fetch(
+    let newPos = [];
+      // const fetchAllItem =  () =>{
+      // address.map(async (addr) => {
+        
+      //   const res = await fetch(`https://api.mapbox.com/geocoding/v5/mapbox.places/${addr.address}.json?&access_token=pk.eyJ1IjoidGhhbmcyNTI1IiwiYSI6ImNrdmcyZ2xlajR3c3YybnExOHlnd3JremoifQ.p9lMGaMU05ZXKzXw9DxeIA`);
+      //   const data = await res.json();
+      //   setPosition(prev => [...prev,{
+      //           ...addr,
+      //           longitude: data.features[0].center[0], 
+      //           latitude: data.features[0].center[1]
+      //         }]);
+      //       }
+      //       )}; 
+          address.map((addr) => (
+              fetch(
           `https://api.mapbox.com/geocoding/v5/mapbox.places/${addr.address}.json?&access_token=pk.eyJ1IjoidGhhbmcyNTI1IiwiYSI6ImNrdmcyZ2xlajR3c3YybnExOHlnd3JremoifQ.p9lMGaMU05ZXKzXw9DxeIA`
       )
       .then(res => 
           res.json()
       )
       .then(data => {
-        newAddress.push({
+          newPos.push({
           ...addr,
           longitude: data.features[0].center[0], 
           latitude: data.features[0].center[1]
         })
+        console.log('in loop',newPos)
       })
-      ))  
-      setPosition(newAddress);   
-    },[address])
+    )); 
+    setPosition(newPos);
+    // fetchAllItem();
+    
+  },[address])
+  console.log({address})
+  console.log({position})
 
-  return (
+      return (
     <ReactMapGL
       {...viewport}
       width={width}

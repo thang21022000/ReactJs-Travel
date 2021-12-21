@@ -54,9 +54,9 @@
       "id": 3,
       "popularity": "superhot",
       "image": [
-        "https://a0.muscache.com/im/pictures/9aeca86a-7fd2-4404-a9f2-f8eff68e468c.jpg",
-        "https://a0.muscache.com/im/pictures/8f65a2d2-d249-4b38-a1b0-857d49edf4ec.jpg",
-        "https://a0.muscache.com/im/pictures/9f24af47-cab8-48b1-a15a-4aecc1a6e1c9.jpg",
+        "https://a0.muscache.com/im/pictures/5a72c697-1e1d-4018-b701-c9cc2d891585.jpg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/d014f45b-f203-4a97-9b90-df37972418cb.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/e96ad237-f1e9-460b-8f9b-55815388ca41.jpg?im_w=480",
         "https://a0.muscache.com/im/pictures/36205e44-c494-4d6f-8bd0-9f04edaf0b2f.jpg",
         "https://a0.muscache.com/im/pictures/1cc8f903-f540-48b0-b2c5-309f35dce9f0.jpg"
       ],
@@ -199,6 +199,181 @@
         "service": "5"
       },
       "type": "privateroom"
+    },
+    {
+      "id": 9,
+      "popularity": "superhot",
+      "image": [
+        "https://a0.muscache.com/im/pictures/miso/Hosting-46517646/original/0bb7e09d-88e7-4e7c-a3a8-6b446c6ee916.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-46517646/original/cffb62af-c4be-432e-ae0c-263a6aaec09c.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-46517646/original/d4368a77-dc2d-402d-b7ad-ee6cd04ebc8d.png?im_w=720",
+        "https://a0.muscache.com/im/pictures/1927c93d-5e4f-430c-9165-97c4b731977a.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-46517646/original/9816886c-7164-4316-ba63-c716b90eaae0.png?im_w=720"
+      ],
+      "summary": "2 khách- 1 phòng - 1 giường- 1 phòng tắm riêng",
+      "hotel": "Secluded Oasis for Romantic Getaway @Bare Chic",
+      "desc": "Bare Boutique Stays are a chain of mignon-cute apartments that may hide in an old picturesque building or a townhouse. The architectural characteristics that embody Saigon. At the heart of an eventful Saigon. Where a leisure walk of less than 10 minutes may bring you to a promenade by a peaceful river under a contiguous tree canopy, to the nearby Saigon Zoo and Botanical Gardens.",
+      "complaint": [
+        "This is the best place I've ever been in Saigon. Just like the pictures, it is clean, and cozy, with easy access to the hot spots. I have nothing to complain about this place and definitely gonna book it again whenever I'm back to Saigon.",
+        "It was my perfect stay with Bare. Highly recommend in the city. Absolutely will be back soon!"
+      ],
+      "price": "29",
+      "address": "nguyễn thị minh khai quận 1 thành phố hồ chí minh",
+      "fees": {
+        "cleaning": "4",
+        "service": "6"
+      },
+      "type": "privateroom"
+    },
+    {
+      "id": 10,
+      "popularity": "superhot",
+      "image": [
+        "https://a0.muscache.com/im/pictures/2867aa62-ca0a-4228-9df3-642c21faa287.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/33e28459-f06a-4904-a3e1-0fff3d679bd1.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/0874833b-e18d-4516-8231-5cded5b75a3a.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/381402a7-f860-44fb-a9ae-8064d0ab2eb9.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/2ac616c1-deb8-40fa-bec1-f096a0250c78.jpg?im_w=720"
+      ],
+      "summary": "2 khách- 1 phòng - 1 giường- 1 phòng tắm riêng",
+      "hotel": "Botanist Lab cozy room in Tan Dinh by CIRCADIAN",
+      "desc": "Welcome to the Botanist Lab! We are a quirky, little homestay located in less hectic area of central Saigon. Our minimalist room features a queen bed, daybed with laptop table, bluetooth speaker and a private bathroom with rain shower.The room is in a newly remodeled house that has been turned into a coliving space. Guests will also have access to a shared kitchen, a large working area and a washer/dryer. We are only 15 minutes from the airport and 15 minutes from Ben Thanh Market!",
+      "complaint": [
+        "This is the best place I've ever been in Saigon. Just like the pictures, it is clean, and cozy, with easy access to the hot spots. I have nothing to complain about this place and definitely gonna book it again whenever I'm back to Saigon.Highly recommended for the great hospitality and comfort this place offers.",
+        "We stayed in a few different Botanist Lab rooms over the past month and couldn’t have been happier."
+      ],
+      "price": "18",
+      "address": "phường 17 quận 1 thành phố hồ chí minh",
+      "fees": {
+        "cleaning": "2",
+        "service": "2"
+      },
+      "type": "hotel"
+    },
+    {
+      "id": 11,
+      "popularity": "superhot",
+      "image": [
+        "https://a0.muscache.com/im/pictures/5d27340e-4b14-4739-a204-5f517cee9804.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-52677831/original/15a0b480-31cd-42af-ab68-14ae8966b5c4.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-3578868/original/845c0255-27af-4713-902b-d426945d38f5.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/1b110c8e-ec13-49a4-a19d-f49a484a3885.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-3578868/original/845c0255-27af-4713-902b-d426945d38f5.jpeg?im_w=720"
+      ],
+      "summary": "2 khách- 1 phòng - 1 giường- 1 phòng tắm riêng",
+      "hotel": "CHRISTINA'S #1 RANKING HOTEL • STUDIO • DISTRICT 1",
+      "desc": "✯✯✯ CHRISTINA'S - HOTEL & CAFÉ ✯✯✯ Christina's started hosting on Airbnb in 2014 and has become the #1 ranking hotel with 22 studio apartments in Ho Chi Minh City.",
+      "complaint": [
+        "This is the best place I've ever been in Saigon. Just like the pictures, it is clean, and cozy, with easy access to the hot spots. I have nothing to complain about this place and definitely gonna book it again whenever I'm back to Saigon.Highly recommended for the great hospitality and comfort this place offers.",
+        "We stayed in a few different Botanist Lab rooms over the past month and couldn’t have been happier."
+      ],
+      "price": "40",
+      "address": "nguyễn cư trinh quận 1 thành phố hồ chí minh",
+      "fees": {
+        "cleaning": "4",
+        "service": "3"
+      },
+      "type": "hotel"
+    },
+    {
+      "id": 12,
+      "popularity": "superhot",
+      "image": [
+        "https://a0.muscache.com/im/pictures/miso/Hosting-47942683/original/ee1fd235-93b1-4ace-a2db-e42b8a071782.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-47942683/original/45808d8b-1b7c-4afa-9240-397dd37c0cd6.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-47942683/original/1f93efc5-e91f-4116-9259-52c4404ca151.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-47942683/original/bfd8f7bd-cb55-44d0-9aac-4d3eadeca97b.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-47942683/original/7a635286-07c1-416f-a727-e1cf24da8231.jpeg?im_w=720"
+      ],
+      "summary": "10 khách- 2 phòng - 10 giường- 2 phòng tắm chung",
+      "hotel": "Male Shared Dorm view sông ở bán đảo Thanh Đa 1pax",
+      "desc": "✯✯✯ CHRISTINA'S - HOTEL & CAFÉ ✯✯✯ Christina's started hosting on Airbnb in 2014 and has become the #1 ranking hotel with 22 studio apartments in Ho Chi Minh City.",
+      "complaint": [
+        "This is the best place I've ever been in Saigon. Just like the pictures, it is clean, and cozy, with easy access to the hot spots. I have nothing to complain about this place and definitely gonna book it again whenever I'm back to Saigon.Highly recommended for the great hospitality and comfort this place offers.",
+        "We stayed in a few different Botanist Lab rooms over the past month and couldn’t have been happier."
+      ],
+      "price": "11",
+      "address": "phường 27 thành phố hồ chí minh",
+      "fees": {
+        "cleaning": "1",
+        "service": "1"
+      },
+      "type": "shareroom"
+    },
+    {
+      "id": 13,
+      "popularity": "superhot",
+      "image": [
+        "https://a0.muscache.com/im/pictures/b71aeb68-ad38-4ab9-b07a-60f891f56fa5.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/77b2a0ad-3568-4dbf-93c8-2dd7e8d1a4f8.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/6481f70a-33f7-4e03-bdc1-03b0443239b2.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/442b8a92-62d5-4025-b6df-01612ea97912.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/3853501b-9da2-4f6f-a26a-6ad8206aec97.jpg?im_w=720"
+      ],
+      "summary": "6 khách- 1 phòng ngũ - 24 giường- 2 phòng tắm chung",
+      "hotel": "The Peace Concept - 6 Capsule Beds in City Center",
+      "desc": "Peaceful and quiet place in the hustle and bustle center of Saigon. It's a place where you can have a sound sleep in your cozy capsule bed after a full day experiencing the city. Everything in the house will make you feel like home. It's also a place where you can sit down mindfully, read a book, write your journal and recharge your energy for your next trips.",
+      "complaint": [
+        "This is the best place I've ever been in Saigon. Just like the pictures, it is clean, and cozy, with easy access to the hot spots. I have nothing to complain about this place and definitely gonna book it again whenever I'm back to Saigon.Highly recommended for the great hospitality and comfort this place offers.",
+        "We stayed in a few different Botanist Lab rooms over the past month and couldn’t have been happier."
+      ],
+      "price": "10",
+      "address": "phường 27 thành phố hồ chí minh",
+      "fees": {
+        "cleaning": "1",
+        "service": "1"
+      },
+      "type": "shareroom"
+    },
+    {
+      "id": 14,
+      "popularity": "superhot",
+      "image": [
+        "https://a0.muscache.com/im/pictures/a2549d7c-636a-428b-b851-883196523d50.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/9fc22743-75e4-4168-9daa-2d0ae1eec6a8.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/4a18a5a2-8d79-470e-83ed-b947b44259d6.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/2edea89a-7fb2-4ed3-8a7b-8ef548904243.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/231a1ce9-2ee4-4a1e-87fe-b14b09b154e2.jpg?im_w=720"
+      ],
+      "summary": "1 khách- 1 phòng ngũ - 1 giường- 6 phòng tắm chung ",
+      "hotel": "The Dorm Saigon bed 205A - Male Bunk Beds Room",
+      "desc": "Welcome to The Dorm Saigon. Many travellers start their journey around the South of Vietnam in Saigon. For others, it’s the last venue they visit before leaving Vietnam. As frequent travellers ourselves, we understand the traveller’s needs. ",
+      "complaint": [
+        "This is the best place I've ever been in Saigon. Just like the pictures, it is clean, and cozy, with easy access to the hot spots. I have nothing to complain about this place and definitely gonna book it again whenever I'm back to Saigon.Highly recommended for the great hospitality and comfort this place offers.",
+        "We stayed in a few different Botanist Lab rooms over the past month and couldn’t have been happier."
+      ],
+      "price": "12",
+      "address": "bến nghé thành phố hồ chí minh",
+      "fees": {
+        "cleaning": "1",
+        "service": "1"
+      },
+      "type": "shareroom"
+    },
+    {
+      "id": 15,
+      "popularity": "superhot",
+      "image": [
+        "https://a0.muscache.com/im/pictures/e0500ef1-9f7d-4a78-90bc-0950555831db.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/f0815a92-3e93-4b82-a4a3-e71002dae7a9.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/8d09dcf9-cc4a-411b-86e8-dde530336c4a.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/e0500ef1-9f7d-4a78-90bc-0950555831db.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/3b95c68a-a6f5-4a9a-a2c5-60dee4b4aac4.jpg?im_w=720"
+      ],
+      "summary": "2 khách- 1 studio - 1 giường- 1 phòng tắm ",
+      "hotel": "♛ Peace ♛ dreamy studio w/ FREE NETFLIX ♛",
+      "desc": "Welcome back all of our beloved guests! We have missed you very very much! - - We are NOW able to host you all at our amazing place. - Our place has been kept pristine the whole time and it is ready to welcome you! - You are required to have 2 doses of COVID-19 vaccine for public health safety.",
+      "complaint": [
+        "This is the best place I've ever been in Saigon. Just like the pictures, it is clean, and cozy, with easy access to the hot spots. I have nothing to complain about this place and definitely gonna book it again whenever I'm back to Saigon.Highly recommended for the great hospitality and comfort this place offers.",
+        "We stayed in a few different Botanist Lab rooms over the past month and couldn’t have been happier."
+      ],
+      "price": "28",
+      "address": "quận 3 thành phố hồ chí minh",
+      "fees": {
+        "cleaning": "3",
+        "service": "2"
+      },
+      "type": "wholeroom"
     }
   ],
   "users": [
@@ -235,7 +410,7 @@
             "cleaning": "5",
             "service": "8"
           },
-          "type": "hotelroom"
+          "type": "wholeroom"
         }
       },
       "detailOrder": {

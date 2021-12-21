@@ -9,6 +9,7 @@
 .nghiduong .wide{
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 12px;
 }
 
 .nghiduong.phongcach .container-btn{
@@ -51,7 +52,15 @@
     column-gap: 36px;
 }
 
+.nghi-duong-group.item-4 img {
+    object-position: -50px center;
+}
+
 .nghi-duong-group.item-5{
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
     column-gap: 36px;
+}
+
+.hotel-type-disc{
+    margin-top: 8px;
 }

@@ -17,6 +17,7 @@ function Home() {
       };
       
       fetchAllItem();
+      console.log('a')
     }, []);
 
     return (
@@ -48,12 +49,16 @@ function Home() {
         title = "Nhà nghỉ dưỡng cho thuê cho mọi phong cách"
         subTitle = "Tìm không gian phù hợp với bạn.">
           <div className="hotel-item">
-              <div className="hotel-item-left">                   
+              <div className="hotel-item-left">            
                     <div className="hotel-container-img">
                             <Link to={"/allhotels"}>
                                 <img src={"./images/france-airbnb-corpse-0add9-1456923239306.jpg"} className="hotel-img" alt={"những chỗ ở thoải mái với tất cả thiết bị thiết yếu"} />
                             </Link>
-                  </div>             
+                  </div>   
+              </div>
+              <div className="hotel-type-disc">
+                  <h3>Nhà</h3>  
+                  <h5>Những chỗ ở thoải mái với tất cả thiết bị thiết yếu</h5>   
               </div>
           </div>
           <div className="hotel-item">
@@ -64,6 +69,10 @@ function Home() {
                             </Link>
                   </div>             
               </div>
+              <div className="hotel-type-disc">
+                  <h3>Khách sạn</h3>
+                  <h5>Chổ ỡ và tiện nghi đầy sang trọng</h5>   
+              </div>
           </div>
         <div className="hotel-item">
               <div className="hotel-item-left">                   
@@ -71,7 +80,11 @@ function Home() {
                             <Link to={"/allhotels"}>
                                 <img src={"./images/docdao.jpg"} className="hotel-img" alt={"cho phép mang theo thú cưng"} />
                             </Link>
-                  </div>             
+                  </div>          
+              </div>
+              <div className="hotel-type-disc">
+                  <h3>Phòng riêng</h3>
+                  <h5>Cho phép mang theo thú cưng</h5>   
               </div>
           </div>
     
@@ -108,7 +121,7 @@ function Home() {
         title = "Nhà nghỉ dưỡng cho thuê tuyệt vời khác ở Ho Chi Minh City"
         subTitle = "Khách đồng ý: những chổ ở được đánh giá cao về vị trí, mức độ sạch sẽ và những tiêu chí khác."
       >
-        {hotels.length > 0 && hotels.slice(4).map((hotel) => (         
+        {hotels.length > 0 && hotels.slice(4,8).map((hotel) => (         
           <HotelItem key ={hotel.id}
           id = {hotel.id}
           popularity = {hotel.popularity}

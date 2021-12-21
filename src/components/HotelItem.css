@@ -14,13 +14,14 @@
 
 .hotel-container-img{
     height: 250px;
+    width: 100%;
+    border-radius: 10px;
     overflow: hidden;
-    /* position: absolute; */
 }
 
 .hotel-img{
     height: 100%;
-    width: 376px;
+    width: 368px;
     object-fit: cover;
     object-position: right center;
     -webkit-transform: scale(1);

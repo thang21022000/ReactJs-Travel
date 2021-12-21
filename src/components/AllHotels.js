@@ -7,11 +7,11 @@ import MapBox from './MapBox'
 
 
 function AllHotels() {
+    const [all, setAll] = useState([]);
     const [showPrice, setShowPrice] = useState(false);
     const [showType, setShowType] = useState(false);
     const [filterPrice, setFilterPrice] = useState({value: 10});
     const [filterType, setFilterType] = useState([]);
-    const [all, setAll] = useState([]);
     const [filterPage, setFilterPage] = useState({
         _limit: 5,
         _page: 1,
@@ -92,6 +92,10 @@ function AllHotels() {
                             <div className="filter filter-type">
                                 <div onClick={(e) => {setShowType(!showType); setShowPrice(false)}} className="filter-label">
                                     loại nơi ở
+                                    {
+                                        showType ? (<i className="fas fa-arrow-up arrow__icon"></i>) :(  <i className="fas fa-arrow-down arrow__icon"></i>)
+                                    }
+                                
                                 </div> 
                                 {showType &&  <div className="form-input form-input-type ">
                                     <form>
@@ -116,13 +120,21 @@ function AllHotels() {
                             </div>
                
                             <div className="filter filter-price" style={filterPrice.value > 10 ? {boxShadow: "0 0 0 1px #000 inset"} : {}}>
-                                <div>
+                                <>
                                     {filterPrice.value > 10 ?
-                                        <div onClick={(e) => {setShowPrice(!showPrice); setShowType(false)}} className="filter-label" >${filterPrice.value}</div>
+                                        <div onClick={(e) => {setShowPrice(!showPrice); setShowType(false)}} className="filter-label" >${filterPrice.value}{
+                                            showPrice ? (<i className="fas fa-arrow-up arrow__icon"></i>) :(  <i className="fas fa-arrow-down arrow__icon"></i>)
+                                }</div>
                                     :
-                                        <div onClick={(e) => {setShowPrice(!showPrice); setShowType(false)}} className="filter-label">Price</div>
+                                        <div onClick={(e) => {setShowPrice(!showPrice); setShowType(false)}} className="filter-label">
+                                            Price
+                                            {
+                                                showPrice ? (<i className="fas fa-arrow-up arrow__icon"></i>) :(  <i className="fas fa-arrow-down arrow__icon"></i>)
                                     }
-                                </div>
+                                        </div>
+                                    }
+                                    
+                                </>
                                 {showPrice &&
                                 <div className="form-input form-input-price ">
                                     <form>
@@ -131,7 +143,8 @@ function AllHotels() {
                                     </form>
                                     
                                 </div>
-                                }      
+                                }     
+                                 
                             </div> 
                            
                            
@@ -139,7 +152,7 @@ function AllHotels() {
 
                         </div>              
                     </div>
-                    {all.length > 0 ? all.map((hotel, index) => (         
+                    {all.length > 0 ? all.map((hotel) => (         
                     <>
                         <HotelItem
                             key={hotel.id}
@@ -151,7 +164,7 @@ function AllHotels() {
                             desc={hotel.desc}
                             price={hotel.price}
                         />
-                        <div key={index} style={{borderBottom:"1px solid var(--borderColor)",  marginBottom:"16px"}}></div>
+                        <div key={hotel.hotel} style={{borderBottom:"1px solid var(--borderColor)",  marginBottom:"16px"}}></div>
                        
                     </>
                     ))       
@@ -161,23 +174,25 @@ function AllHotels() {
                     </>}
                     
                     <Pagination
-                    totalItemsCount={totalItem}
-                    activePage={pagination}
-                    onChange={((e) => handlePageChange(e))}
-                    itemsCountPerPage={filterPage._limit}
-                    pageRangeDisplayed={5}
-                    itemClass="page-item"
-                    linkClass="page-link"
-                  />
+                        totalItemsCount={totalItem}
+                        activePage={pagination}
+                        onChange={((e) => handlePageChange(e))}
+                        itemsCountPerPage={filterPage._limit}
+                        pageRangeDisplayed={5}
+                        itemClass="page-item"
+                        linkClass="page-link"
+                    />
 
                 </div>
                 <div className="all-right">
                     <div className="mapbox">
+                        {all.length > 0 && 
                             <MapBox 
                                 height="87vh" 
                                 width="100%" 
                                 address={all}
                             />             
+                        }
                     </div>
                 </div>
             </div>

@@ -1,0 +1,76 @@
+@media (min-width: 740px) and (max-width: 1022px){
+    .app {
+        overflow-x: hidden;
+    }
+
+    /*home*/
+    .navbar-container{
+        position: relative !important;
+    }
+
+    .nghi-duong-group.item-5{
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr)!important;
+    }
+
+    .nghi-duong-group.item-4{
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) !important;
+    }
+    .nghi-duong-group.item-4 img{
+        object-position: initial !important;
+    }
+
+    /*dk dn*/
+    .form {
+        width: 60vw !important;
+    }
+
+    /*hotel detail*/
+    .two-part{
+        grid-template-columns: 1fr 1fr !important;
+    }
+    .part-right-wrapped{
+        margin-left: 0 !important;
+    }
+    .part-right__dated{
+        display: block !important;
+    }
+
+    .location > div {
+        height: 50vh !important;
+    }
+}
+
+
+/*mobile*/
+@media (max-width: 739px){
+    .app {
+        overflow-x: hidden;
+    }
+    
+    .price-button {
+        padding: 8px !important;
+    }
+
+    .nghi-duong-group.item-3,.nghi-duong-group.item-4,.nghi-duong-group.item-5 {
+        grid-template-columns: minmax(0, 1fr) !important;
+    }
+
+    /*footer*/
+    .artical {
+        display: block !important;
+    }
+
+    .artical-content {
+        margin-bottom: 24px;
+    }
+    
+    .footer-info{
+        display: block !important;
+    }
+
+    .footer-list{
+        justify-content: center !important;
+        margin-top: 8px !important;
+    }
+
+}
