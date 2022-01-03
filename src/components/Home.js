@@ -5,19 +5,22 @@ import TypeHotel from './TypeHotel'
 import HotelItem from './HotelItem'
 import Feature from './Feature'
 import Button from './Button'
+import hotelApi from '../api/hotelApi';
 
 function Home() {
     const [hotels, setHotels] = useState([]);
   
     useEffect(() => {
       const fetchAllItem = async () =>{
-        const res = await fetch('http://localhost:5000/hotels');
-        const data = await res.json();
-        setHotels(data);
+        try{
+          const response = await hotelApi.getAll()
+          setHotels(response.data);
+        }catch(error){
+          console.log('Failed to fetch product list: ', error);
+        }
       };
       
       fetchAllItem();
-      console.log('a')
     }, []);
 
     return (
