@@ -8,7 +8,8 @@ const port = process.env.PORT || 5000;
 const express = require('express');
 const path = require('path');
 
-server.use('/db', middlewares, router);
+server.use(middlewares);
+server.use(router);
 server.use(express.static(path.join(__dirname, 'build')));
 
 server.get('/ping', function (req, res) {
