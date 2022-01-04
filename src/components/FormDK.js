@@ -25,7 +25,7 @@ function FormDK() {
         }
 
         //gửi request tạo tài khoản tới server 
-        await fetch('http://localhost:5000/users', {
+        await fetch('https://api-travel-react-app.herokuapp.com/users', {
             method: 'POST',
             headers: {
                 'Accept': 'application/json',

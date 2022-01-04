@@ -16,10 +16,10 @@ function FormDN() {
         const pass = passRef.current.value;
     
         //lấy dữ liệu theo email
-        const res = await fetch(`http://localhost:5000/users?email=${email}`);
+        const res = await fetch(`https://api-travel-react-app.herokuapp.com/users?email=${email}`);
         const data = await res.json();
         //lấy dữ liệu theo mật khẩu
-        const res2 = await fetch(`http://localhost:5000/users?pass=${pass}`);
+        const res2 = await fetch(`https://api-travel-react-app.herokuapp.com/users?pass=${pass}`);
         const data2 = await res2.json();
         if(data.length > 0){
             if(data2.length > 0){

@@ -29,7 +29,7 @@ function Account() {
 
     useEffect(() => {
         const fetchUserData = async () =>{
-            const res = await fetch(`http://localhost:5000/users/${user[0].id}`);
+            const res = await fetch(`https://api-travel-react-app.herokuapp.com/users/${user[0].id}`);
             const data = await res.json();
             setUserData(data);
         };
@@ -45,7 +45,7 @@ function Account() {
               {
                 label: 'Có',
                 onClick: async () => {
-                  await fetch(`http://localhost:5000/users/${user[0].id}`, {
+                  await fetch(`https://api-travel-react-app.herokuapp.com/users/${user[0].id}`, {
                   method: 'PUT',
                   body: JSON.stringify(...user),
                   headers: {'Content-type': 'application/json'}
