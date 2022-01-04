@@ -15,7 +15,6 @@ function MapBox({address, width, height}) {
     zoom: 11.5
   });
   const [position, setPosition] = useState([]);
-  const [state, setState] =  useState(Date.now());
   useEffect(() => {
     let newPos = [];
       // const fetchAllItem =  () =>{

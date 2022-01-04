@@ -9,6 +9,7 @@ import './HotelDetail.css'
 import 'react-calendar/dist/Calendar.css'
 import './Calendar2.css'
 import {AuthContext} from './AuthContext'
+import hotelApi from '../api/hotelApi'
 
 function HotelDetail({match}) { 
     const {isLogged, user} = useContext(AuthContext);
@@ -34,16 +35,15 @@ function HotelDetail({match}) {
         price: 0,
 
     });
+
     useEffect(() => {
         const fetchApi = async () =>{
-            const res = await fetch(`http://localhost:5000/hotels/${match.params.id}`);
-            const data = await res.json();
-            setHotel(data);
-            setTurnToArray([data]);
+            const responde = await hotelApi.getHotelById(match.params.id);
+            setHotel(responde);
+            setTurnToArray([responde]);
         };    
         fetchApi();  
         },[match]);
-
     //day
     useEffect(() => {
         const CaculateDay = () => {
@@ -96,7 +96,7 @@ function HotelDetail({match}) {
                     }
                     
                 }
-                await fetch(`http://localhost:5000/users/${user[0].id}`, {
+                await fetch(`https://api-travel-react-app.herokuapp.com/users/${user[0].id}`, {
                 method: 'PATCH',
                 body: JSON.stringify(dataOrder),
                 headers: {'Content-type': 'application/json'}

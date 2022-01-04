@@ -11,7 +11,6 @@ function Navbar() {
     useEffect(() =>{
         const listenScrollEvent = () =>{
             window.scrollY > 10 ? setNavbarBackground("white"): setNavbarBackground("transparent !important");
-            console.log(window.scrollY)
         }
 
         window.addEventListener("scroll", listenScrollEvent)

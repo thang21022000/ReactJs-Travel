@@ -4,6 +4,7 @@ import queryString from 'query-string'
 import './AllHotels.css'
 import HotelItem from './HotelItem'
 import MapBox from './MapBox'
+import hotelApi from '../api/hotelApi'
 
 
 function AllHotels() {
@@ -28,9 +29,9 @@ function AllHotels() {
                 return queryString.stringify(item)
             }).join('&');
             if(filterType.length < 0){
-                res = await fetch('http://localhost:5000/hotels');
+                res = await fetch('https://api-travel-react-app.herokuapp.com/hotels');
             }else{
-                res = await fetch(`http://localhost:5000/hotels?${parameterType}`);
+                res = await fetch(`https://api-travel-react-app.herokuapp.com/hotels?${parameterType}`);
 
             }
             const data = await res.json();
@@ -50,9 +51,10 @@ function AllHotels() {
             }).join('&');
 
             if(filterType.length < 0){
-                res = await fetch(`http://localhost:5000/hotels?price_gte=${filterPrice.value}&${parameterPage}`);
+                // res = await fetch(`http://localhost:5000/hotels?price_gte=${filterPrice.value}&${parameterPage}`);
+                res = await hotelApi.getAll(filterPage);
             }else{
-                res = await fetch(`http://localhost:5000/hotels?price_gte=${filterPrice.value}&${parameterPage}&${parameterType}`);
+                res = await fetch(`https://api-travel-react-app.herokuapp.com/hotels?price_gte=${filterPrice.value}&${parameterPage}&${parameterType}`);
             }
             const data = await res.json();
             setAll(data);
