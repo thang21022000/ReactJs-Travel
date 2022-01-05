@@ -50,7 +50,7 @@ function Account() {
                   body: JSON.stringify(...user),
                   headers: {'Content-type': 'application/json'}
                   });
-                  history.push('/home');
+                  history.push('/');
                 }
               },
               {

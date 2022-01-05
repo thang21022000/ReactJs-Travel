@@ -23,7 +23,7 @@ function Navbar() {
 
     const HandleLogout = () => {
         localStorage.removeItem('user')
-        history.push('/home');
+        history.push('/');
 
         // setIsLogged(false);
     }
